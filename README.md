@@ -57,7 +57,7 @@ If your setup is truly headless without a screen, you need to find a way to run 
 
 This section is for setting up the 3.5" screen for the Pi, so you can skip this if you have a normal HDMI-connected screen or no screen at all.
 
-I installed and driver and set it up using [this page](http://www.lcdwiki.com/3.5inch_RPi_Display). You can ignore error message about the *xserver*, which isn’t installed. Also consider rotating the screen as per that page’s information.
+I installed the driver and set it up using [this page](http://www.lcdwiki.com/3.5inch_RPi_Display). You can ignore error message about the *xserver*, which isn’t installed. Also consider rotating the screen as per that page’s information.
 
 # Running pycryptobot on boot
 
@@ -67,7 +67,7 @@ Also, I want the bot to run in an infinite loop in a shell script. This way the 
 
 Also, there needs to be a way to restart the bot manually in case of updates to *pycryptobot* (which happen frequently), or you wanting to change your configuration. The problem is that you can’t remotely bump into an open terminal session and quit and restart the running application. You can do that with an attached keyboard, but not remotely. However, you can remotely find and kill the Python process responsible for running *pycryptobot*, upon which it will (in my setup) pull the latest sources, and restart with my latest configuration. 
 
-So given the `git pull` being part of the infinite loop, I prefer to run the bot without the `autorestart` option. If it crashes, there’s a chance that that crash has already been fixed in the source in the meantime, so a crash with trigger a source update and then a restart, which is awesome.
+So given the `git pull` being part of the infinite loop, I prefer to run the bot without the `autorestart` option. If it crashes, there’s a chance that that crash has already been fixed in the source in the meantime, so a crash will trigger a source update and then a restart, which is awesome.
 
 Let’s go step by step.
 
