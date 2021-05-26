@@ -121,4 +121,4 @@ This tutorial assumes that you only want to run one instance of *pycryptobot*, b
 
 # Due Diligence
 
-When considering crypto trading, please do us all a favour and consider the environment around you alongside the dollar signs in your eyes. Personally, I got into crypto trading just a few days ago after reading the announcement that Ethereum will switch from PoW to PoS within the year (2021), which requires 99.95% less energy to validate compared to PoW (like Bitcoin). Please choose your investments wisely. I vow to only trade PoS currencies, or in case of ETH, once that will make the switch in the near future.
+When considering crypto trading, please do us all a favour and consider the environment around you alongside the dollar signs in your eyes. Personally, I got into crypto trading just a few days ago after reading the announcement that Ethereum will switch from PoW to PoS within the year (2021), which requires 99.95% less energy to validate compared to PoW (like Bitcoin). Please choose your investments wisely. I vow to only trade PoS currencies, or in case of ETH, one that will make the switch in the near future.
