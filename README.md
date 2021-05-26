@@ -85,7 +85,7 @@ Change its permissions to be executable with `chmod 755 loop.sh`.
 
 Following [this tutorial](https://www.raspberrypi-spy.co.uk/2015/02/how-to-autorun-a-python-script-on-raspberry-pi-boot/), we set the Pi to log into the `pi` user account automatically on startup: Run `sudo raspi-config` to open the Pi’s config editor, choose `1 - System Options`, then `S5 Boot / Auto Login`, then `B2 Console Autologin`, then quit. The reboot can wait until later.
 
-Open the startup controller script with `nano .profile`, then at the end of the file, place the following code, save and quit:
+Open the startup controller script with `nano ~/.profile`, then at the end of the file, place the following code, save and quit:
 
 ```
 if pgrep loop.sh; then
