@@ -114,3 +114,7 @@ FONTSIZE="6x12"
 ```
 
 and reboot with `sudo reboot`.
+
+# Limitations
+
+This tutorial assumes that you only want to run one instance of *pycryptobot*, because I only have one screen, so can only run once. Other measures may be necessary to run multiple instances for different markets, but I won’tt go into them.
