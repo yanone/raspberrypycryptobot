@@ -10,7 +10,7 @@ Here’s a turn-by-turn navigation for how to set it up.
 
 # This is not a pycryptobot Tutorial
 
-This tutorial covers how to install *pycryptobot* on a Raspberry Pi, because it’s a somewhat non-linear process for the specific case of the Raspberry Pi. It **doesn’t** cover how *pycryptobot* itself functions. You still need to learn that separately, and I suggest that you start at [pycryptobot’s Github repo](https://github.com/whittlem/pycryptobot).
+This tutorial covers how to install *pycryptobot* on a *Raspberry Pi*, because it’s a somewhat non-linear process for the specific case of the Raspberry Pi. It **doesn’t** cover how *pycryptobot* itself functions. You still need to learn that separately, and I suggest that you start at [pycryptobot’s Github repo](https://github.com/whittlem/pycryptobot).
 
 # Operating System
 
