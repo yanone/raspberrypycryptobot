@@ -8,6 +8,10 @@ The *pycryptobot* repo says that it requires Python 3.9, but I found that it run
 
 Here’s a turn-by-turn navigation for how to set it up.
 
+# This is not a pycryptobot Tutorial
+
+This tutorial covers how to install *pycryptobot* on a Raspberry Pi, because it’s a somewhat non-linear process for the specific case of the Raspberry Pi. It **doesn’t** cover how *pycryptobot* itself functions. You still need to learn that separately, and I suggest that you start at [pycryptobot’s Github repo](https://github.com/whittlem/pycryptobot).
+
 # Operating System
 
 For a headless or command-line-only Pi bot, download the latest `Raspberry Pi OS Lite` image from [here](https://www.raspberrypi.org/software/operating-systems/).
