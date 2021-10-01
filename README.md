@@ -1,3 +1,7 @@
+# Status: Deprecated
+
+I stopped using this and have repurposed the Pi for something else. I’m keeping the repository open for reference or forks. So long.
+
 # Installing pycryptobot on a Raspberry Pi
 
 ![](pi.jpg)
